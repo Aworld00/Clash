@@ -1,6 +1,6 @@
 # 预防老年痴呆
 ### Clash Party效果图
-![](https://github.com/Aworld00/Clash/blob/main/Image/%E6%95%88%E6%9E%9C%E5%9B%BE.png?raw=true)
+![](https://github.com/Aworld00/Clash/blob/main/Image/%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 #### 规则地址
 
 Baa_CN直连
