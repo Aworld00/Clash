@@ -20,7 +20,7 @@ function main(config) {
     },
     {
       ...groupBaseOption,
-      "name": "🗽美国专用",
+      "name": "🗽美国AI专用",
       "type": "select",
       "hidden": false,//隐藏节点组不再页面显示；true是隐藏，false是显示
       "include-all": true,        // 自动包含你订阅里的所有节点
@@ -332,7 +332,7 @@ function main(config) {
     // Lovedeath 规则集
     "RULE-SET,Baa_CN,🀄关闭代理,no-resolve",
     "RULE-SET,Baa_Agent,🌍国外网站",
-    "RULE-SET,Baa_USA,🗽美国专用",
+    "RULE-SET,Baa_USA,🗽美国AI专用",
 
     // Loyalsoldier 规则集
     "RULE-SET,reject,🆎广告拦截",
