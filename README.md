@@ -1,15 +1,17 @@
 # 预防老年痴呆
-
-### clash效果图
-![](https://github.com/Aworld00/Clash_Parsers/blob/master/Image/clash_rendering.png)
-### clash_verge
-![](https://github.com/Aworld00/Clash_Parsers/blob/master/Image/clash_verge_rendering.png)
+### Clash Party效果图
+![](https://github.com/Aworld00/Clash/blob/main/Image/%E6%95%88%E6%9E%9C%E5%9B%BE.png?raw=true)
 #### 规则地址
-Baa_Plus代理
-https://cdn.jsdelivr.net/gh/Aworld00/Clash_Parsers@refs/heads/master/Rules/Baa_Plus.yaml
 
 Baa_CN直连
-https://cdn.jsdelivr.net/gh/Aworld00/Clash_Parsers@refs/heads/master/Rules/Baa_CN.yaml
+https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_CN.yaml
+https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_CN.yaml
+Baa_Plus代理
+https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Plus.yaml
+https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_Plus.yaml
+Baa_Agent（美区系列）
+https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Agent.yaml
+https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_Agent.yaml
 #### 一些图标
 | 图标 | 图标 | 图标 | 图标 | 图标 | 图标 |
 |------|------|------|------|------|------|
