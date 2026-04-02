@@ -7,13 +7,13 @@ Baa_CN直连<br>
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_CN.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_CN.yaml
 
-Baa_Plus代理<br>
-https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Plus.yaml
-https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_Plus.yaml
-
-Baa_Agent（美区系列）<br>
+Baa_Agent代理<br>
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Agent.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_Agent.yaml
+
+Baa_USA（美区系列）<br>
+https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_USA.yaml
+https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
 #### 一些图标
 | 图标 | 图标 | 图标 | 图标 | 图标 | 图标 |
 |------|------|------|------|------|------|
