@@ -4,7 +4,6 @@
 #### 规则地址
 
 Baa_CN直连<br>
-
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_CN.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_CN.yaml
 
