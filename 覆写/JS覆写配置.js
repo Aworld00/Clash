@@ -317,6 +317,9 @@ function main(config) {
   const rules = [
     // 自定义规则
     //规则由上往下遍历，如上面规则已经命中，则不再往下处理
+    // 下载规则
+    "DOMAIN-SUFFIX,raw.githubusercontent.com,✈️开启代理",
+
     // ACL4SSR 规则集
     "RULE-SET,BilibiliHMT,🏊番剧出差",
 
