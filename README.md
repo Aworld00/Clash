@@ -6,10 +6,10 @@
 Baa_CN直连
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_CN.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_CN.yaml
-Baa_Plus代理
+ Baa_Plus代理
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Plus.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_Plus.yaml
-Baa_Agent（美区系列）
+ Baa_Agent（美区系列）
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Agent.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_Agent.yaml
 #### 一些图标
