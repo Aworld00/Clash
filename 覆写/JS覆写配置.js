@@ -26,7 +26,7 @@ function main(config) {
       "include-all": true,        // 自动包含你订阅里的所有节点
       "filter": "(?i)^(?=.*(?:US|us|🇺🇸|America|美国))(?!.*(?:倍|流量|x)).*$",
       "proxies": ["🀄关闭代理", "🇺🇸美国测速⚡", "✈️开启代理"],
-      "icon": "https://raw.githubusercontent.com/Aworld00/Clash_Parsers/refs/heads/master/Icon/America.png"
+      "icon": "https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Icon/America.png"
     },
     {
       ...groupBaseOption,
@@ -298,18 +298,18 @@ function main(config) {
       "path": "./ruleset/Lovedeath/Baa_CN.yaml"
     },
     //Plus
-    "Baa_Plus": {
+    "Baa_Agent": {
       ...ruleProviderCommon,
       "behavior": "classical",
-      "url": "https://raw.githubusercontent.com/Aworld00/Clash_Parsers/refs/heads/master/Rules/Baa_Plus.yaml",
-      "path": "./ruleset/Lovedeath/Baa_Plus.yaml"
+      "url": "https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Agent.yaml",
+      "path": "./ruleset/Lovedeath/Baa_Agent.yaml"
     },
     //USA
-    "Baa_UAS": {
+    "Baa_USA": {
       ...ruleProviderCommon,
       "behavior": "classical",
-      "url": "https://raw.githubusercontent.com/Aworld00/Clash_Parsers/refs/heads/master/Rules/Baa_USA.yaml",
-      "path": "./ruleset/Lovedeath/Baa_UAS.yaml"
+      "url": "https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_USA.yaml",
+      "path": "./ruleset/Lovedeath/Baa_USA.yaml"
     },
   };
 
@@ -328,8 +328,8 @@ function main(config) {
 
     // Lovedeath 规则集
     "RULE-SET,Baa_CN,🀄关闭代理,no-resolve",
-    "RULE-SET,Baa_Plus,🌍国外网站",
-    "RULE-SET,Baa_Plus,🗽美国专用",
+    "RULE-SET,Baa_Agent,🌍国外网站",
+    "RULE-SET,Baa_USA,🗽美国专用",
 
     // Loyalsoldier 规则集
     "RULE-SET,reject,🆎广告拦截",
