@@ -294,7 +294,7 @@ function main(config) {
     "Baa_CN": {
       ...ruleProviderCommon,
       "behavior": "classical",
-      "url": "https://raw.githubusercontent.com/Aworld00/Clash_Parsers/refs/heads/master/Rules/Baa_CN.yaml",
+      "url": "https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_CN.yaml",
       "path": "./ruleset/Lovedeath/Baa_CN.yaml"
     },
     //Plus
