@@ -6,3 +6,4 @@ payload:
 # > - DOMAIN-SUFFIX,chatgpt.com #GPT
   - DOMAIN-SUFFIX,openclaw.ai #龙虾
   - DOMAIN-SUFFIX,flowith.io #flowith
+  - DOMAIN-SUFFIX,krea.ai #krea
