@@ -1,21 +1,24 @@
 # 预防老年痴呆
 ### Clash Party效果图
 ![](https://github.com/Aworld00/Clash/blob/main/Image/%E6%95%88%E6%9E%9C%E5%9B%BE.png)
-#### 规则地址
+### 规则地址
 
 Baa_CN直连<br>
+```
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_CN.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_CN.yaml
-
+```
 Baa_Agent代理<br>
+```
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_Agent.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_Agent.yaml
-
+```
 Baa_USA（美区系列）<br>
+```
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_USA.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
-
-#### 规则写法
+```
+### 规则写法
 ##### DOMAIN - 完整域名匹配
 ```
 - DOMAIN,google.com,代理策略
@@ -38,7 +41,7 @@ https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
 - GEOSITE,cn,DIRECT                 # 中国大陆网站
 - GEOSITE,category-ads-all,REJECT   # 广告域名
 ```
-#### IP 规则
+### IP 规则
 ##### IP-CIDR - IP 地址段匹配
 ```
 - IP-CIDR,192.168.0.0/16,DIRECT     # 局域网直连
@@ -49,7 +52,7 @@ https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
 - GEOIP,CN,DIRECT                   # 中国 IP 直连
 - GEOIP,US,代理策略                  # 美国 IP 走代理
 ```
-#### 端口规则
+### 端口规则
 ##### DST-PORT - 目标端口匹配
 ```
 - DST-PORT,22,DIRECT                # SSH 端口直连
@@ -61,7 +64,7 @@ https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
 - PROCESS-NAME,Telegram.exe,代理策略  # Telegram 走代理
 - PROCESS-NAME,WeChat.exe,DIRECT     # 微信直连
 ```
-#### 逻辑规则 
+### 逻辑规则 
 ##### AND - 多条件同时满足
 ```
 - AND,((DOMAIN-SUFFIX,youtube.com),(GEOIP,!CN)),代理策略
@@ -70,7 +73,7 @@ https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
 ```
 - OR,((DOMAIN-KEYWORD,google),(DOMAIN-KEYWORD,youtube)),代理策略
 ```
-#### 通用规则
+### 通用规则
 ##### MATCH - 兜底规则（必须放在最后）
 ```
 - MATCH,代理策略                     # 其他所有流量的默认策略
@@ -82,7 +85,7 @@ DIRECT - 直连，不使用代理
 REJECT - 阻断连接
 代理组名称 - 如 🚀 手动切换、🎯 全球直连 等
 ```
-#### 规则插入位置
+### 规则插入位置
 规则可以插入到 "前置规则" 或 "后置规则"：
  - 前置规则：优先级最高，建议将自定义规则放在此处
  - 后置规则：在订阅规则之后生效
@@ -121,7 +124,7 @@ REJECT - 阻断连接
 ```
 
 
-#### 一些图标
+### 一些图标
 | 图标 | 图标 | 图标 | 图标 | 图标 | 图标 |
 |------|------|------|------|------|------|
 | <img src="https://github.com/Aworld00/Clash_Parsers/blob/master/Icon/Adblock.png" width="100" height="100" alt="Adblock"> | <img src="https://github.com/Aworld00/Clash_Parsers/blob/master/Icon/Airport.png" width="100" height="100" alt="Airport"> | <img src="https://github.com/Aworld00/Clash_Parsers/blob/master/Icon/America.png" width="100" height="100" alt="America"> | <img src="https://github.com/Aworld00/Clash_Parsers/blob/master/Icon/Auto.png" width="100" height="100" alt="Auto"> | <img src="https://github.com/Aworld00/Clash_Parsers/blob/master/Icon/Balance.png" width="100" height="100" alt="Balance"> | <img src="https://github.com/Aworld00/Clash_Parsers/blob/master/Icon/Catnet.png" width="100" height="100" alt="Catnet"> |
