@@ -1,5 +1,5 @@
 payload:
-  - DOMAIN-KEYWORD,cn,DIRECT # 匹配所有 .cn 域名
+  - DOMAIN-SUFFIX,cn,DIRECT # 匹配所有 .cn 域名
 # > AI网站
   - DOMAIN-SUFFIX,ai.comfly.chat #comfly
   - DOMAIN-SUFFIX,ai.t8star.cn #贞贞ai
