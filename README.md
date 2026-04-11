@@ -15,13 +15,13 @@ Baa_USA（美区系列）<br>
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_USA.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
 
-##规则写法
-#DOMAIN - 完整域名匹配
+## 规则写法
+# DOMAIN - 完整域名匹配
 
 - DOMAIN,google.com,代理策略
 - DOMAIN,baidu.com,DIRECT
 
-#DOMAIN-SUFFIX - 域名后缀匹配
+# DOMAIN-SUFFIX - 域名后缀匹配
 
 - DOMAIN-SUFFIX,google.com,代理策略  # 匹配 *.google.com
 - DOMAIN-SUFFIX,cn,DIRECT           # 匹配所有 .cn 域名
