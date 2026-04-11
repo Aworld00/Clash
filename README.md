@@ -15,7 +15,7 @@ Baa_USA（美区系列）<br>
 https://raw.githubusercontent.com/Aworld00/Clash/refs/heads/main/Rules/Baa_USA.yaml
 https://cdn.jsdelivr.net/gh/Aworld00/Clash@refs/heads/main/Rules/Baa_USA.yaml
 
-##### 规则写法
+#### 规则写法
 ##### DOMAIN - 完整域名匹配
 
 - DOMAIN,google.com,代理策略
